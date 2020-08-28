@@ -59,6 +59,13 @@ p {
   color: black;
 }
 
+.svgstyle {
+  max-width: 400px;
+  display: inline-block;
+  height: 500px;
+  width: 500px;
+}  
+
 #skills {
   font-size: 30px;
   font-family: sans-serif;
