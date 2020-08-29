@@ -182,7 +182,7 @@ button:hover, button:focus {
   display: grid;
   max-width: 600px;
   -ms-grid-columns: 300px 300px 300px;
-  -grid-columns: 300px 300px 300px;
+  -ms-grid-columns: 300px 300px 300px;
   grid-template-columns: 300px 300px 300px;
   -ms-grid-rows: 300px 300px;
   -grid-rows: 300px 300px;
@@ -233,14 +233,14 @@ button:hover, button:focus {
 @media all and (max-width: 500px) {
   .grid {
     -ms-grid-columns: 1fr;
-    -grid-columns: 1fr;
+    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
 }
 @media all and (min-width: 500px) and (max-width: 750px){
   .grid {
     -ms-grid-columns: 1fr 1fr;
-    -grid-columns: 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
   }
 }
