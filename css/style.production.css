@@ -30,6 +30,10 @@ body {
         font-family: calibri;
         border-width: medium;
    }
+#Code {
+      font-size: 20px;
+      color: black;
+}
 
 #Intro {
         color: #CF0000;
@@ -48,14 +52,17 @@ p {
 }
 
 .svgstyle {
-  max-width: 400px;
+  max-width: 900px;
   display: inline-block;
-  height: 500px;
-  width: 500px;
-}  
+  height: 600px;
+  width: 900px;
+  position: center;
+  margin-left: 270px;
+  background-size: contain;
+} 
 
-#skills {
-  font-size: 30px;
+.skills {
+  font-size: 25px;
   font-family: sans-serif;
   color: black;
 }
